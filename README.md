@@ -36,6 +36,10 @@ defaults write com.apple.finder AppleShowAllFiles YES
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
+- Show user Library folder
+```
+chflags nohidden ~/Library/
+```
 
 ### Other Applications
 - Install Sublime Text 2 [[Download](http://www.sublimetext.com/2)]
