@@ -46,12 +46,11 @@ chflags nohidden ~/Library/
 - Clone sublime config `git clone https://github.com/thiagoxvo/sublime-text.git`
 
 - Create symb link to config 		
-	
-`cd ~/'Library/Application Support/Sublime Text 2'`
-	
-`rm -R Packages`
-	
-`ln -s ~/dev/sublime-text Packages`
+```bash
+cd ~/'Library/Application Support/Sublime Text 2'
+rm -R Packages`
+ln -s ~/dev/sublime-text Packages
+```
 	
 
 ### Other Applications
