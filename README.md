@@ -40,6 +40,13 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 chflags nohidden ~/Library/
 ```
+- Clone sublime config
+	- Create symb link to config 
+	```
+	cd ~/'Library/Application Support/Sublime Text 2'
+	rm -R Packages
+	ln -s ~/dev/sublime-text Packages
+	```
 
 ### Other Applications
 - Install Sublime Text 2 [[Download](http://www.sublimetext.com/2)]
