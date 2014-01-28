@@ -28,7 +28,7 @@ Change the default shell:
 ```bash
 chsh -s /usr/local/bin/zsh
 ```
-
+- Install oh-my-zsh 
 - Create ~/dev folder
 - Copy .ssh folder from backup
 - Install dotfiles [[Download](https://github.com/thiagoxvo/dotfiles)]
